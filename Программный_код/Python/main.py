@@ -28,7 +28,7 @@ def get_text_from_speech(sound_file_name):
 
     # Создам заголовок с API-ключом для Яндекс.Облака, который пошлем в запросе
     headers = {
-        'Authorization': f'Api-Key {YC_STT_API_KEY}'
+        'Authorization': f'Api-Key {###}'
     }
 
     # Отправляем POST-запрос на сервер Яндекс, который занимается расшифровкой аудио,
